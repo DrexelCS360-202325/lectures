@@ -1,0 +1,6 @@
+resolver: lts-21.25
+packages:
+- .
+local-bin-path: bin
+system-ghc: true
+allow-different-user: true
