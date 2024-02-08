@@ -7,7 +7,8 @@
 --
 -- You can start GHCi at the UNIX prompt with the command `stack ghci`.
 --
--- You can load this file into GHCi with the command `stack ghci Examples.hs`.
+-- You can load this file into GHCi by typing the command `:load Examples.hs` at
+-- the GHCi prompt.
 --
 
 module Examples where
