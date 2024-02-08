@@ -4,6 +4,12 @@
 {-# OPTIONS_GHC -Wall -Wno-type-defaults -fno-warn-missing-signatures #-}
 -- Turn on warnings
 
+--
+-- You can start GHCi at the UNIX prompt with the command `stack ghci`.
+--
+-- You can load this file into GHCi with the command `stack ghci Examples.hs`.
+--
+
 module Examples where
 
 import Test.QuickCheck
