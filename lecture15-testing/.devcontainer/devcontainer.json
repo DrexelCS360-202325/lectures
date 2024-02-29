@@ -1,0 +1,22 @@
+{
+	"name": "GHC 9.4.8",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+    "args": {
+      "USERNAME": "vscode",
+      "BUILDKIT_INLINE_CACHE": "0"
+    }
+	},
+
+	"containerUser": "vscode",
+
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"haskell.haskell"
+			]
+		}
+	}
+}
