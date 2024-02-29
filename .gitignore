@@ -1,0 +1,17 @@
+\#*
+*~
+*.bak
+*.dep
+*.exe
+*.hi
+*.o
+*.zo
+.DS_Store
+.stack-work/
+.vs/
+.vscode/
+compiled/
+dist/
+dist-newstyle/
+run-tests
+stack.yaml.lock
